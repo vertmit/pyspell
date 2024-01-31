@@ -1,3 +1,5 @@
+<img scr='https://github.com/vertmit/pyspell/blob/main/pyspell.png'>
+
 # PySpell
 PySpell provides functionality for spell checking and sentence correction. It uses a dictionary of words and the Levenshtein distance algorithm to suggest corrections.
 
