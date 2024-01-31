@@ -1,4 +1,4 @@
-<img scr='https://raw.githubusercontent.com/vertmit/pyspell/main/pyspell.png'>
+<img scr='https://raw.githubusercontent.com/vertmit/pyspell/logo/pyspell.png' alt='logo'>
 
 # PySpell
 PySpell provides functionality for spell checking and sentence correction. It uses a dictionary of words and the Levenshtein distance algorithm to suggest corrections.
