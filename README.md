@@ -23,12 +23,14 @@ This function corrects all the words in a sentence and returns the corrected sen
 First, load the dictionary:
 
 ```python
+import pyspell
+
 # Optional
-dictionary = load_dictionary("words.txt")
+pyspell.dictionary = load_dictionary("words.txt")
 
 # Then, you can check the spelling of a word:
-print(spell_check("helo", 5)) # It will give the top 5 closest words
+print(pyspell.spell_check("helo", 5)) # It will give the top 5 closest words
 
 # Or correct a sentence:
-print(correct_sentence("helo wrld"))
+print(pyspell.correct_sentence("helo wrld"))
 ```
