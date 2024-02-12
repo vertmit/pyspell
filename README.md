@@ -27,7 +27,7 @@ First, load the dictionary:
 ```python
 import pyspell
 
-# Optional
+# Load dictionary from text file
 pyspell.dictionary = load_dictionary("words.txt")
 
 # Then, you can check the spelling of a word:
